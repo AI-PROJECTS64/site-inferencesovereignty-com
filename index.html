@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>InferenceSovereignty.com — Inference sovereignty and sovereign inference</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="InferenceSovereignty.com is an independent, descriptive .com domain dedicated to inference sovereignty, sovereign inference and inference governance for AI workloads across cloud and edge environments."
+  />
+  <link rel="canonical" href="https://www.inferencesovereignty.com/" />
+  <meta property="og:site_name" content="InferenceSovereignty.com" />
+  <meta property="og:title" content="Inference sovereignty and sovereign inference" />
+  <meta
+    property="og:description"
+    content="Neutral, descriptive domain name for inference sovereignty, sovereign inference and inference governance in AI and cloud or edge computing."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.inferencesovereignty.com/" />
+  <meta property="og:image" content="og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Inference sovereignty and sovereign inference" />
+  <meta
+    name="twitter:description"
+    content="Independent, descriptive domain name reserved as a potential neutral hub for inference sovereignty, sovereign inference and inference governance."
+  />
+  <meta name="twitter:image" content="og.jpg" />
+  <link rel="icon" type="image/jpeg" href="og.jpg" />
+
+  <style>
+    :root {
+      --bg: #050816;
+      --bg-elevated: #0b1024;
+      --border-subtle: #1a2340;
+      --text-main: #f5f7ff;
+      --text-muted: #a5b0d6;
+      --accent: #4fd1c5;
+      --accent-soft: rgba(79, 209, 197, 0.16);
+      --danger: #f56565;
+      --radius-lg: 18px;
+      --radius-pill: 999px;
+      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.65);
+      --max-width: 1080px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at top, #101735 0, #050816 52%, #02030a 100%);
+      color: var(--text-main);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 1200px;
+      padding: 24px 16px 56px;
+    }
+
+    @media (min-width: 900px) {
+      .page {
+        padding: 32px 32px 72px;
+      }
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .logo-block {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-block img {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 10px 25px rgba(0, 0, 0, 0.8);
+    }
+
+    .site-name {
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #e2e8ff;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 0.9rem;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: var(--text-main);
+    }
+
+    .lang-switch {
+      padding: 4px 10px;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--border-subtle);
+      background: rgba(5, 10, 32, 0.9);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+
+    .lang-switch strong {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    main.content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .hero {
+      background: radial-gradient(circle at top left, #202a4d 0, #050816 52%, #02030a 100%);
+      border-radius: 24px;
+      padding: 32px 20px 28px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148, 163, 255, 0.22);
+      position: relative;
+      overflow: hidden;
+    }
+
+    @media (min-width: 900px) {
+      .hero {
+        padding: 40px 40px 32px;
+      }
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 15% 0, rgba(79, 209, 197, 0.14), transparent 55%),
+        radial-gradient(circle at 90% 20%, rgba(59, 130, 246, 0.18), transparent 55%);
+      mix-blend-mode: screen;
+      opacity: 0.8;
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 780px;
+    }
+
+    .eyebrow {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.9rem, 3vw, 2.4rem);
+      margin: 0 0 12px;
+    }
+
+    .hero-lead {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      max-width: 620px;
+      margin-bottom: 18px;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 22px;
+    }
+
+    .tag {
+      font-size: 0.78rem;
+      padding: 4px 10px;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(148, 163, 255, 0.35);
+      background: rgba(6, 11, 40, 0.9);
+      color: var(--text-muted);
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: var(--radius-pill);
+      font-size: 0.9rem;
+      border: 1px solid transparent;
+      text-decoration: none;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #4fd1c5, #22c1b7);
+      color: #020617;
+      font-weight: 600;
+      box-shadow: 0 10px 30px rgba(19, 181, 164, 0.55);
+    }
+
+    .btn-primary:hover {
+      box-shadow: 0 14px 40px rgba(19, 181, 164, 0.75);
+      transform: translateY(-1px);
+    }
+
+    .btn-ghost {
+      background: rgba(7, 12, 40, 0.9);
+      color: var(--text-main);
+      border-color: rgba(148, 163, 255, 0.32);
+    }
+
+    .btn-ghost:hover {
+      background: rgba(12, 18, 56, 0.9);
+    }
+
+    .hero-note {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      max-width: 620px;
+    }
+
+    .section {
+      margin-top: 32px;
+      padding: 22px 18px;
+      border-radius: var(--radius-lg);
+      background: radial-gradient(circle at top left, rgba(79, 209, 197, 0.07), transparent 60%),
+        linear-gradient(to bottom right, rgba(15, 23, 42, 0.9), rgba(2, 6, 23, 0.98));
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 14px 38px rgba(0, 0, 0, 0.7);
+    }
+
+    @media (min-width: 900px) {
+      .section {
+        padding: 26px 24px;
+      }
+    }
+
+    .section h2 {
+      font-size: 1.2rem;
+      margin-top: 0;
+      margin-bottom: 6px;
+    }
+
+    .section p {
+      margin-top: 6px;
+      margin-bottom: 10px;
+      font-size: 0.96rem;
+      color: var(--text-muted);
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 12px;
+    }
+
+    @media (min-width: 800px) {
+      .columns {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    .card {
+      background: rgba(8, 12, 38, 0.9);
+      border-radius: 16px;
+      padding: 12px 12px 11px;
+      border: 1px solid rgba(51, 65, 102, 0.9);
+    }
+
+    .card h3 {
+      font-size: 0.95rem;
+      margin: 2px 0 6px;
+      color: #e2e8ff;
+    }
+
+    .card p {
+      font-size: 0.88rem;
+      margin: 0;
+      color: var(--text-muted);
+    }
+
+    ul, ol {
+      margin: 8px 0 6px 20px;
+      padding-left: 0;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    li + li {
+      margin-top: 3px;
+    }
+
+    .terminology-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    @media (min-width: 800px) {
+      .terminology-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .pill {
+      font-size: 0.8rem;
+      padding: 4px 9px;
+      border-radius: var(--radius-pill);
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148, 163, 255, 0.35);
+      color: var(--text-muted);
+    }
+
+    .legal {
+      font-size: 0.84rem;
+    }
+
+    .legal h3 {
+      font-size: 0.95rem;
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+
+    .site-footer {
+      max-width: var(--max-width);
+      margin: 22px auto 0;
+      padding-top: 18px;
+      border-top: 1px solid rgba(30, 64, 175, 0.6);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .site-footer a {
+      color: var(--accent);
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "InferenceSovereignty.com",
+    "url": "https://www.inferencesovereignty.com/",
+    "description": "Independent, descriptive domain focused on inference sovereignty, sovereign inference and inference governance for AI workloads across cloud and edge environments."
+  }
+  </script>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="logo-block">
+        <img src="logo-inferencesovereignty.png" alt="InferenceSovereignty.com logo" />
+        <span class="site-name">InferenceSovereignty.com</span>
+      </div>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#terminology">Terminology</a>
+        <a href="#use-cases">Use cases</a>
+        <a href="#references">References</a>
+        <a href="#legal">Legal notice</a>
+        <a class="lang-switch" href="Acquisition%20Brief%20InferenceSovereignty-202511.pdf">
+          <strong>FR</strong> / Français (brief)
+        </a>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="hero" id="top">
+        <div class="hero-inner">
+          <div class="eyebrow">Independent, descriptive domain name</div>
+          <h1>Inference sovereignty in the age of AI and sovereign cloud</h1>
+          <p class="hero-lead">
+            Inference sovereignty is about who controls where AI inferences are executed, under which law, and with which guarantees.
+            This site sketches the neutral conceptual space for inference sovereignty, sovereign inference and inference governance across
+            cloud and edge environments.
+          </p>
+          <div class="hero-tags" aria-label="Key themes">
+            <span class="tag">Inference sovereignty</span>
+            <span class="tag">Sovereign inference</span>
+            <span class="tag">Inference governance</span>
+            <span class="tag">Edge and regional cloud</span>
+            <span class="tag">Logs, telemetry and assurance</span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="concept-note.html">Read the Concept Note</a>
+            <a
+              class="btn btn-ghost"
+              href="Acquisition%20Brief%20InferenceSovereignty-EN-202511.pdf"
+            >
+              Acquisition Brief (EN, PDF)
+            </a>
+          </div>
+          <p class="hero-note">
+            InferenceSovereignty.com is currently a privately held, neutral domain name. It does not represent an official framework,
+            regulator, standard-setter or cloud provider. Any future public-interest use would depend entirely on legitimate institutions.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2>What is inference sovereignty?</h2>
+        <p>
+          Inference sovereignty is a descriptive term for the set of questions around who controls AI inference workloads,
+          where they are executed, which legal regime applies and how they are monitored and audited over time.
+          It focuses on the operational layer where models, data and infrastructure converge into concrete decisions.
+        </p>
+        <p>
+          In modern architectures, AI systems are increasingly deployed as distributed inference workloads, close to the point of use:
+          at the edge, in sovereign cloud regions, in regulated data centres or on devices embedded in industrial systems.
+          Boards, regulators and operators are starting to ask not only where data are stored and models are trained, but also where
+          predictions and decisions are actually produced, logged and reviewed.
+        </p>
+        <p>
+          The expression inference sovereignty, sometimes phrased as sovereign inference, provides a compact way to discuss these issues
+          without prescribing a particular technology stack, vendor or legal position.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>How it differs from other forms of digital sovereignty</h2>
+        <p>
+          Inference sovereignty is related to, but distinct from, other layers of digital sovereignty. One way to describe the stack is:
+        </p>
+        <div class="terminology-grid">
+          <div class="card">
+            <h3>Data sovereignty</h3>
+            <p>
+              Focused on data residency, processing locations and cross border flows for personal, industrial or sensitive data,
+              including localisation requirements and access by foreign authorities.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Compute sovereignty</h3>
+            <p>
+              Focused on control over physical and virtual compute infrastructure, including chips, accelerators, fabs and sovereign or
+              regional cloud capacity.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Model sovereignty</h3>
+            <p>
+              Focused on ownership, control and governance of AI models: how they are designed, trained, updated, validated and made
+              available or restricted across jurisdictions.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Inference sovereignty</h3>
+            <p>
+              Focused on where and how models are actually executed at runtime, under which law, with which controls on inputs, outputs,
+              logs and telemetry, and with what assurance mechanisms.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Telemetry sovereignty</h3>
+            <p>
+              Focused on who can access operational telemetry, logs, monitoring data, performance metrics and incident traces that
+              surround AI systems in production.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Operational sovereignty</h3>
+            <p>
+              Focused on who holds decision rights over deployment, configuration, incident response and business continuity for
+              AI-enabled systems and services.
+            </p>
+          </div>
+        </div>
+        <p>
+          Inference sovereignty therefore sits at the point where decisions are produced in day to day operations,
+          often in highly regulated or safety critical environments.
+        </p>
+      </section>
+
+      <section id="why-now" class="section">
+        <h2>Why it matters now</h2>
+        <p>
+          Between 2025 and 2035, digital sovereignty debates are shifting from storage to execution:
+          not only where data are kept, but where AI decisions happen in practice.
+        </p>
+        <div class="columns">
+          <div class="card">
+            <h3>Sovereign and regional cloud</h3>
+            <p>
+              Cloud and infrastructure providers are introducing sovereign and regional offerings where AI workloads,
+              including inference, are confined to specific regions with separate governance, contracts and controls.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Edge and critical systems</h3>
+            <p>
+              Telecoms, industry, energy, transport and defence increasingly rely on AI at the edge.
+              For these systems, regulators and operators need clarity on where inferences are executed, logged and audited.
+            </p>
+          </div>
+          <div class="card">
+            <h3>AI governance and regulation</h3>
+            <p>
+              AI governance frameworks and upcoming regulations strengthen expectations on logging, record keeping, transparency
+              and risk management for high risk AI systems across the lifecycle, including inference behaviour over time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="terminology" class="section">
+        <h2>Terminology and related expressions</h2>
+        <p>
+          Different communities use neighbouring expressions that touch the same space. InferenceSovereignty.com treats them as
+          overlapping lenses rather than competing brands.
+        </p>
+        <ul>
+          <li>
+            <strong>Inference sovereignty</strong> — descriptive label for control over locations, legal regimes and controls
+            surrounding AI inference workloads.
+          </li>
+          <li>
+            <strong>Sovereign inference</strong> — often used by providers to describe inference workloads executed in specific
+            sovereign or regional cloud environments, with strict data handling policies.
+          </li>
+          <li>
+            <strong>In-country inference</strong> — emphasis on keeping inference workloads inside a given jurisdiction
+            or regulatory area, sometimes as part of data localisation requirements.
+          </li>
+          <li>
+            <strong>Inference governance</strong> — broader perspective on policies, processes, controls and monitoring
+            that apply to inference behaviour of AI systems.
+          </li>
+          <li>
+            <strong>Confidential inference</strong> — technical focus on using confidential computing, secure enclaves and
+            attestation to protect inputs, models and outputs during inference.
+          </li>
+        </ul>
+        <div class="pill-list" aria-label="Search and discovery keywords">
+          <span class="pill">sovereign inference</span>
+          <span class="pill">inference sovereignty</span>
+          <span class="pill">in-country inference</span>
+          <span class="pill">edge inference</span>
+          <span class="pill">inference governance</span>
+          <span class="pill">confidential inference</span>
+          <span class="pill">remote attestation</span>
+          <span class="pill">AI logging and audit</span>
+        </div>
+      </section>
+
+      <section id="use-cases" class="section">
+        <h2>Illustrative domains where inference sovereignty will matter</h2>
+        <p>
+          The examples below are illustrative only. They show where inference sovereignty questions are likely to arise
+          as AI workloads become more deeply embedded in critical systems.
+        </p>
+        <ul>
+          <li>
+            <strong>Finance and insurance</strong> — high risk credit, trading, market surveillance and fraud detection models
+            deployed under strict jurisdictional, prudential and conduct requirements.
+          </li>
+          <li>
+            <strong>Healthcare and life sciences</strong> — diagnostic, triage and treatment recommendation systems
+            where patient data, inference locations and logging practices fall under health data regimes.
+          </li>
+          <li>
+            <strong>Public sector, defence and security</strong> — AI systems used for intelligence analysis, border control
+            or mission support where national security and democratic accountability are at stake.
+          </li>
+          <li>
+            <strong>Industrial, energy and transport systems</strong> — AI at the edge for grid management, rail signalling,
+            aviation, autonomous vehicles and manufacturing, where safety and liability depend on verifiable behaviour.
+          </li>
+          <li>
+            <strong>Telecoms and critical networks</strong> — AI driven optimisation, anomaly detection and slicing in
+            networks subject to telecom and national security regulation.
+          </li>
+        </ul>
+      </section>
+
+      <section id="references" class="section">
+        <h2>References and signals (indicative only)</h2>
+        <p>
+          InferenceSovereignty.com does not endorse or affiliate with any organisation or publication. The points below simply
+          illustrate that inference sovereignty and sovereign inference are already discussed in professional and technical contexts.
+        </p>
+        <ul>
+          <li>
+            Enterprise cloud strategy articles that link digital sovereignty to regional autonomy, local decision rights
+            and control over where workloads execute.
+          </li>
+          <li>
+            Vendor and industry materials on sovereign or regional edge cloud, distinguishing training locations, inference execution,
+            operational control and telemetry for telecoms, industrial and defence systems.
+          </li>
+          <li>
+            Announcements and technical documentation where providers describe sovereign inference offerings hosted in specific
+            European regions with strict non retention of data.
+          </li>
+          <li>
+            AI governance frameworks such as AI risk management guidance and emerging AI management system standards that
+            encourage organisations to manage risks across the full lifecycle, including deployment, logging and incident handling.
+          </li>
+          <li>
+            Research work on confidential inference systems and trusted execution environments that enables verifiable assurance
+            about where and how inference workloads run.
+          </li>
+          <li>
+            Public information on upcoming AI regulations, including requirements on logging, record keeping and transparency
+            for high risk AI systems.
+          </li>
+        </ul>
+      </section>
+
+      <section id="legal" class="section legal">
+        <h2>About InferenceSovereignty.com and legal notice</h2>
+        <p>
+          InferenceSovereignty.com is an independent, descriptive .com domain name focused on the concept of inference sovereignty
+          and sovereign inference. It is currently held by a private owner, without affiliation to any government, regulator, central bank,
+          international organisation, standard setter, cloud provider, vendor or company mentioned as context on this site.
+        </p>
+
+        <h3>Non affiliation</h3>
+        <p>
+          This site is not an official portal of any public authority, regulator, standards body, industry association or cloud provider.
+          References to organisations, frameworks or publications are for contextual illustration only and do not imply endorsement,
+          sponsorship or partnership of any kind.
+        </p>
+
+        <h3>No official status</h3>
+        <p>
+          Any mention of potential frameworks, observatories, indices, dashboards or guidance hosted under this domain is illustrative.
+          Whether InferenceSovereignty.com is ever associated with an official initiative would depend solely on decisions made in the
+          future by competent authorities or governing bodies.
+        </p>
+
+        <h3>No legal, regulatory or technical advice</h3>
+        <p>
+          Nothing on this site, in the Concept Note or in the Acquisition Brief should be interpreted as legal, regulatory, financial,
+          accounting, cybersecurity, data protection or investment advice. The domain itself does not confer compliance with any law,
+          regulation or standard, including for example AI related regulations, data protection laws, cybersecurity frameworks or
+          AI governance standards.
+        </p>
+
+        <h3>Limited responsibility of the current owner</h3>
+        <p>
+          The current owner makes no representation or warranty regarding future regulatory developments, market demand, search engine
+          ranking, policy adoption or suitability of this domain name for any particular purpose. Any future use of the domain,
+          and any statements made under it, will be under the full responsibility of the acquiring party, in accordance with applicable
+          laws and professional standards.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        &copy; <span id="year"></span> InferenceSovereignty.com — independent, descriptive domain name.
+      </div>
+      <div>
+        Contact (qualified institutional interest only):
+        <a href="mailto:contact@inferencesovereignty.com">contact@inferencesovereignty.com</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var el = document.getElementById("year");
+      if (el) {
+        el.textContent = new Date().getFullYear();
+      }
+    })();
+  </script>
+</body>
+</html>
